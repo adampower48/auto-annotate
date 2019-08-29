@@ -153,10 +153,10 @@ class App(threading.Thread):
         tk.Label(parent, text="Instances", padx=10).grid(row=0, column=3)
 
         # Details
-        self.kitti_frames_text = tk.Label(kitti_grid2, text="#")
+        self.kitti_frames_text = tk.Label(kitti_grid2, text="0")
         self.kitti_frames_text.grid(row=0, column=1)
 
-        self.kitti_ids_text = tk.Label(kitti_grid2, text="#")
+        self.kitti_ids_text = tk.Label(kitti_grid2, text="0")
         self.kitti_ids_text.grid(row=1, column=1)
 
         self.kitti_classes_text = t = tk.Text(

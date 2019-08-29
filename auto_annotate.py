@@ -757,7 +757,7 @@ def images_to_video(imgs_folder=None, imgs=None, dest_folder=None, framerate=15,
         img = np.uint8(img)[:, :, :3]
 
         if writer is None:
-            hwight, width, channels = img.shape
+            height, width, channels = img.shape
             writer = cv.VideoWriter(video_path, cv.VideoWriter_fourcc(*"mp4v"), framerate, (width, height))
 
         writer.write(img)
