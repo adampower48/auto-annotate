@@ -1,0 +1,47 @@
+{
+  "kitti_columns_map": [
+    [
+      0,
+      "frame"
+    ],
+    [
+      1,
+      "object_id"
+    ],
+    [
+      2,
+      "object_type"
+    ],
+    [
+      6,
+      "xmin"
+    ],
+    [
+      7,
+      "ymin"
+    ],
+    [
+      8,
+      "xmax"
+    ],
+    [
+      9,
+      "ymax"
+    ]
+  ],
+  "shape_config": {
+    "line_width": 2,
+    "text_font": "HERSHEY_PLAIN",
+    "text_size": 1,
+    "text_line_width": 1,
+    "text_y_offset": -5,
+    "text_x_offset": 0,
+    "text_background": true,
+    "text_background_color": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}
